@@ -1,0 +1,222 @@
+body {
+    display: flex;
+    align-items: start;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.wd-kanbas-navigation,
+.wd-course-navigation {
+    height: 500%;
+}
+
+.wd-course-navigation {
+    background-color: white;
+    list-style: none;
+    padding: 0px;
+    width: 150px;
+    margin: 0px;
+    margin-left: 20px;
+}
+.wd-course-navigation li {
+    padding-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.wd-course-navigation li.wd-active {
+    border-left: 2px solid black;
+}
+.wd-course-navigation li.wd-active a {
+    color: black;
+}
+
+.wd-course-navigation a {
+    color: red;
+    text-decoration: none;
+}
+
+.wd-modules,
+.wd-modules * {
+    border-radius: 0%;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.wd-modules {
+    margin: 5px;
+}
+
+.wd-modules > li {
+    background-color: lightgrey;
+    border: 0px solid lightgrey;
+    margin-bottom: 0px;
+    padding: 4px;
+}
+
+.wd-modules > li > div {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-left: 1px solid lightgray;
+}
+
+.wd-modules > li > ul > li {
+    padding: 20px;
+    border-top: 1px solid gray !important;
+    border-left: 2px solid green;
+}
+
+/* .wd-modules > li > ul > li > ul > li  {
+    padding-left: 0;
+    padding-top: 10;
+    border-top: 1px solid gray !important;
+    border-bottom: 1px solid gray;
+} */
+
+
+.wd-modules > li {
+    margin-bottom: 0px;
+}
+
+.navigation-container {
+    height: auto;
+}
+
+.custom-link {
+    text-decoration: none;
+    color: red;
+}
+
+.flex-container {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.heading-container {
+    display: flex;
+    align-items: center;
+}
+
+.heading {
+    width: 50%;
+    padding: 20px 0 0 30px;
+}
+
+.sub-heading {
+    width: 100%;
+    font-size: 20px;
+    padding: 0 50px;
+}
+
+.sub-heading p.text {
+    font-size: 15px;
+    color: gray;
+    font-style: italic;
+}
+
+.heading i.fas.fa-bars {
+    margin-right: 10px;
+}
+
+i.fas.fa-bars {
+    color: red;
+    font-size: 24px;
+}
+
+.list-group-item-secondary {
+    height: 50px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.modules-container {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.container {
+    width:100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.padded-text {
+    padding: 10px 0 10px 0;
+}
+
+.padded-text-2 {
+    padding: 10px 0 10px 30px;
+}
+
+.padded-chev {
+    padding: 10px 0 10px 15px;
+}
+
+.right-container {
+    padding-left: 50px;
+}
+
+.list-container {
+    width: 100%;
+    background-color: lightgray;
+    color: white;
+    padding: 20px 0 20px 20px;
+}
+
+.right-text-style {
+    text-decoration: none;
+    color: black;
+}
+
+.right-contents-grey-text {
+    color: grey;
+    font-size: 13px;
+}
+
+/* Default styles */
+.navigation-container,
+.flex-container .heading,
+.flex-container .navigation-container {
+    display: block;
+}
+
+/* Hide last column and expand third column */
+@media (max-width: 1000px) {
+    .right-container,
+    .flex-container .heading {
+        display: none;
+    }
+    .flex-container .right-container {
+        flex: 1;
+    }
+}
+
+
+/* Hide first two columns and expand third column */
+@media (max-width: 900px) {
+    .navigation-container,
+    .flex-container .navigation-container {
+        display: none;
+    }
+    .flex-container .navigation-container > div {
+        flex: 1;
+    }
+}
+
+
+
+
+

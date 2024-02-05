@@ -1,0 +1,257 @@
+#kanbas-navigation,
+#course-navigation,
+#kanbas-title,
+#course-status {
+    display: none;
+}
+
+
+#course-module{
+    width: 100%;
+}
+
+
+@media (min-width: 800px) {
+    #kanbas-navigation,
+    #kanbas-title,
+    #course-navigation {
+        display: block;
+    }
+
+    #course-status,
+    #kanbas-small-title {
+        display: none;
+    }
+}
+
+/* @media (min-width: 992px) {
+    #anbas-navigation,
+    #kanbas-title,
+    #course-navigation,
+    #course-status {
+        display: block;
+    }
+    #kanbas-small-title{
+        display: none;
+    }
+} */
+
+.kanbas-dropdown{
+    padding-top: 5px !important; 
+    padding-bottom: 5px !important;
+
+}
+.kanbas-button{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+.kanbas-button2{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+.kanbas-button2 i{
+    color: black;
+}
+.list-group-item {
+    padding-left: 50px !important;
+}
+.list-group-item, .custom-item {
+    border-left: 5px solid green !important;
+}
+
+.list-group{
+    border-radius: 0 !important;
+}
+
+.list-group-item.font-weight-bold {
+    padding-left: 5px !important;
+}
+.list-group-item-secondary{
+    padding-left: 5px !important;
+    border-left: none !important;
+
+}
+.list-group-item a{
+    border-radius: 0 !important;
+    text-decoration: none;
+    color: red;
+}
+
+.custom-item {
+    position: relative;
+}
+
+.icon-plus {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 35px;
+}
+
+.percentage{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 60px;
+    border: solid 1px black;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+.icon-check {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: green;
+}
+.icon-ellipsis{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: black;
+}
+
+
+.icon-check {
+    right: 35px;
+}
+
+.icon-ellipsis {
+    right: 15px;
+}
+
+.list-group{
+    border-left: 2px !important;
+    border-color: green !important;
+}
+.coming-up a{
+    text-decoration: none;
+    color: red;
+}
+
+.kanbas-Status-buttons button{
+    margin-bottom: 5px !important ;
+    text-align: left;
+    font-size: 0.8rem; 
+    padding-left: 15px; 
+}
+
+.title-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: black; 
+    margin-bottom: 10px;
+}
+
+.icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.icon-button i{
+    color: white;
+}
+
+.title-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.title-text > div {
+    text-align: center;
+}
+
+/* Styles for the entire navbar */
+.wd-kanbas-navigation-wrapper {
+    display: none;
+    background-color: #fff;
+    width: 100vw; 
+    height: 100vh; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999; /* Make sure it's on top */
+    overflow-y: auto; /* Allow scrolling if content is longer than screen */
+}
+
+/* Style for the close icon */
+.wd-nav-close {
+    text-align: right; 
+    padding: 10px 20px; 
+}
+
+/* Icon styles */
+.nav-icon {
+    margin-right: 20px; 
+    color: red;
+}
+
+/* Account icon (gray color as per your request) */
+.wd-profile-icon {
+    color: gray;
+}
+
+/* Styles for each navigation item */
+.wd-nav-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    color: red; 
+    text-decoration: none; /* remove default underline for links */
+    transition: background-color 0.3s; /* smooth color change */
+}
+
+/* Highlight the nav item when hovered */
+.wd-nav-item:hover {
+    background-color: #f5f5f5; /* light gray background */
+}
+
+.course-navbar {
+    display: none;
+}
+
+.wd-nav-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    color: red;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.wd-nav-item:hover {
+    background-color: #f5f5f5;
+}
+
+
+.wd-flex-row-container {
+    display: flex; 
+    flex-direction: row; 
+    align-items: flex-start;
+}
+
+
+/* Hide first two columns and expand third column */
+@media (max-width: 800px) {
+    /* #kanbas-navigation,
+    #kanbas-title,
+    #course-navigation {
+        display: block;
+    } */
+
+    #course-navigation {
+        display: none;
+    }
+}
+@media (max-width: 900px) {
+    #kanbas-navigation {
+        display: none;
+    }
+}
