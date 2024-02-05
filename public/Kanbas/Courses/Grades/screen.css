@@ -4,8 +4,8 @@ body {
 }
 
 .wd-kanbas-navigation,
-.wd-assignment-navigation {
-  height: 100%;
+.wd-grades-navigation {
+  height: 150%;
   overflow-y: auto;
   list-style-type: none;
   margin: 0;
@@ -16,7 +16,7 @@ body {
   background-color: white;
   list-style: none;
   padding: 0px;
-  width: 120px;
+  width: 130px;
   margin: 0px;
   margin-left: 20px;
 }
@@ -187,22 +187,21 @@ i.fas.fa-bars {
 }
 
 .table {
-    border-collapse: collapse; /* 重要：合并相邻单元格的边框 */
+    border-collapse: collapse; 
 }
 
 .table th,
 .table td {
-    border-left: 1px solid lightgray; /* 给单元格左侧添加边框 */
-    border-right: 1px solid lightgray; /* 给单元格右侧添加边框 */
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray; 
 }
 
-/* 如果您想要去除第一列左边和最后一列右边的边框，可以使用 :first-child 和 :last-child 伪类 */
 .table th:first-child,
 .table td:first-child {
-    border-left: none; /* 移除第一列单元格左侧的边框 */
+    border-left: none; 
 }
 
 .table th:last-child,
 .table td:last-child {
-    border-right: none; /* 移除最后一列单元格右侧的边框 */
+    border-right: none; 
 }

@@ -1,24 +1,24 @@
 body {
-display: flex;
-align-items: start;
+    display: flex;
+    align-items: start;
 }
 
 .wd-kanbas-navigation,
 .wd-assignment-navigation {
-height: 100%;
-overflow-y: auto;
-list-style-type: none;
-margin: 0;
-padding: 0;
+    height: 150%;
+    overflow-y: auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .wd-assignment-navigation {
-background-color: white;
-list-style: none;
-padding: 0px;
-width: 120px;
-margin: 0px;
-margin-left: 20px;
+    background-color: white;
+    list-style: none;
+    padding: 0px;
+    width: 130px;
+    margin: 0px;
+    margin-left: 20px;
 }
 .wd-assignment-navigation li {
 padding-left: 10px;
@@ -46,7 +46,7 @@ align-items: center;
 }
 
 .navigation-container {
-height: 150%;
+height: 100%;
 }
 
 .custom-link {
@@ -146,18 +146,18 @@ font-size: 13px;
 }
 
 .form-container .row {
-align-items: center;
+    align-items: center;
 }
 
 .form-container label {
-margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 .input-group-btn {
-position: absolute;
-right: 10px;
-top: 50%;
-transform: translateY(-50%);
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .custom-form-control {
