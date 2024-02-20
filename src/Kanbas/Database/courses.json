@@ -1,0 +1,49 @@
+[   { 
+    "_id": "RS101", 
+    "name": "Rocket Propulsion", 
+    "number": "RS4550", 
+    "startDate": "2023-01-10",
+    "endDate": "2023-05-15", 
+    "image": "https://s3-us-west-2.amazonaws.com/courses-images/wp-content/uploads/sites/2952/2018/01/31193507/CNX_UPhysics_09_07_Shuttle.jpg"
+    },    
+    {"_id": "RS102", 
+    "name": "Aerodynamics", 
+    "number": "RS4560", 
+    "startDate": "2023-01-10",
+    "endDate": "2023-05-15", 
+    "image": "https://www.nasa.gov/wp-content/uploads/2015/05/airfoillift_0.jpg"
+    },
+    { 
+    "_id": "RS103", 
+    "name": "Spacecraft Design", 
+    "number": "RS4570", 
+    "startDate": "2023-01-10",
+    "endDate": "2023-05-15", 
+    "image": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*_M6Xrm6zaEWsuXTGxvLCNg.png"
+    },
+    { 
+    "_id": "RS104", 
+    "name": "Rocket Propulsion", 
+    "number": "RS4550", 
+    "startDate": "2023-01-10",
+    "endDate": "2023-05-15", 
+    "image": "https://s3-us-west-2.amazonaws.com/courses-images/wp-content/uploads/sites/2952/2018/01/31193507/CNX_UPhysics_09_07_Shuttle.jpg"
+    },
+    { 
+    "_id": "RS105", 
+    "name": "Aerodynamics", 
+    "number": "RS4560", 
+    "startDate": "2023-01-10",
+    "endDate": "2023-05-15", 
+    "image": "https://www.nasa.gov/wp-content/uploads/2015/05/airfoillift_0.jpg"
+    },
+    { 
+    "_id": "RS106", 
+    "name": "Spacecraft Design", 
+    "number": "RS4570", 
+    "startDate": "2023-01-10",
+    "endDate": "2023-05-15", 
+    "image": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*_M6Xrm6zaEWsuXTGxvLCNg.png"
+    }
+]
+

@@ -1,0 +1,78 @@
+.card-header {
+  background-color: #007bff;
+  color: white;
+}
+
+.card {
+  width: 300px;
+  height: 250px;
+  margin: 0 auto;
+  transition: transform 0.2s;
+}
+
+.card-img-top {
+  height: 250px;
+  object-fit: cover;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+[class^="col-"] {
+  display: flex;
+  justify-content: center;
+}
+
+#wd-course-cards-container {
+    max-width: 1100px;
+    margin-right: 50px;
+    column-gap: 20px;
+}
+
+
+:root {
+    --solid-blue: #2486b9;
+}
+
+.col {
+    width: 250px !important;
+    height: 250px !important;
+    margin-block: 30px;
+}
+
+.card {
+    width: 100%;
+}
+
+.wd-card-link-no-decoration {
+    text-decoration: none;
+}
+
+.wd-course-img-height-125px {
+    min-height: 125px;
+}
+
+/* Button at upper right corner of course-card-img */
+.wd-course-card-img-button-white svg {
+    color: white;
+}
+
+/* Button glow up when hover */
+.wd-course-card-img-button-white svg:hover {
+    color: white;
+    filter: drop-shadow(0px 0px 5px lightgrey);
+}
+
+.card-title {
+    color: var(--solid-blue) !important;
+}
+
+.card-subtitle,
+.card-text {
+    color: grey !important;
+}
+
+.wd-course-card-icon-grey {
+    color: grey;
+}
