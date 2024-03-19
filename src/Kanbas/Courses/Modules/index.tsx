@@ -1,9 +1,9 @@
-import ModuleList from "./ModuleList";
+import List from "./List";
 
 function Modules() {
   return (
     <div>
-      <ModuleList />
+      <List />
     </div>
   );
 }

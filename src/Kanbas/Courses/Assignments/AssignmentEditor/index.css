@@ -1,7 +1,7 @@
 .assignment-container {
-width: 90%;
-margin: 0 auto;
-padding: 60px 50px 0 0;
+    width: 90%;
+    margin: 0 auto;
+    padding: 60px 50px 0 0;
 }
 
 .assignment-header {
@@ -18,8 +18,8 @@ padding: 60px 50px 0 0;
 }
 
 .assignment-container .assignment-header .check-icon {
-color: green;
-margin-right: 5px;
+    color: green;
+    margin-right: 5px;
 }
 
 .assignment-container .assignment-header .ellip-icon {
@@ -42,4 +42,52 @@ margin-right: 5px;
     color: green;
     font-size: 17px;
     font-weight: bold;
+}
+
+.assignment-dates-container {
+    display: flex;
+    margin-top: 10px;
+}
+
+.assignment-dates-container-1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    flex-grow: 1;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.assignment-dates-group {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    flex: 1;
+    /* margin-bottom: 1rem; */
+}
+  
+.assignment-dates-group label {
+    /* flex: 0 0 120px; */
+    margin-left: 5px;
+    margin-bottom: 0px;
+    font-weight: 500;
+}
+  
+.assignment-dates-group input {
+    flex: 1;
+    margin-right: 0.5rem;
+}
+  
+.assignment-dates-group:last-child input {
+    margin-right: 0;
+}
+
+.assignment-points {
+    display: flex;
+    margin-top: 20px;
+}
+
+.assignment-points input {
+    margin-left: 16px;
 }

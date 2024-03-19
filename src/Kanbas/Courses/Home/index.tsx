@@ -1,4 +1,4 @@
-import ModuleList from "../Modules/ModuleList";
+import ModuleList from "../Modules/List";
 import {
     FaBan,
     FaCheckCircle,

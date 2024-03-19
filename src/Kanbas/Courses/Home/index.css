@@ -1,9 +1,9 @@
 .whole-container {
-display: flex;
+    display: flex;
 }
 
 .right-container {
-padding-top: 80px;
+padding-top: 10px;
 padding-right: 50px;
 padding-left: 50px;
 }

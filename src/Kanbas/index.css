@@ -8,3 +8,7 @@
     text-decoration: none;
     color: red;
 }
+
+.flex-grow-1 {
+    padding-left: 80px;
+}

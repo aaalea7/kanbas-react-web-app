@@ -1,7 +1,7 @@
 .modules-container {
   width: 80%;
   margin: 0 auto;
-  padding: 80px 0 0 0;
+  padding: 10px 0 0 0;
   border-radius: 5px;
 }
 
@@ -14,7 +14,15 @@
 }
 
 .module-content-start {
-    align-items: flex-start;
+  align-items: flex-start;
+  font-size: large;
+}
+
+.module-content-subtitle {
+  align-items: flex-start;
+  width: 100%;
+  font-size: small;
+  color: black;
 }
 
 .module-content {
@@ -22,6 +30,10 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
+}
+
+.spacer {
+  flex-grow: 1;
 }
 
 .module-header button {
@@ -34,6 +46,7 @@
 }
 
 .module-item {
+  flex-direction: column;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -51,9 +64,33 @@
 .module-actions {
   display: flex;
   align-items: center;
+  margin-left: 5px;
 }
 
 .module-check-icon {
   color: green;
   margin-right: 10px;
+}
+
+.list-group-flex-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+}
+
+.modules-inputs {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.button-left {
+  margin-right: auto;
 }

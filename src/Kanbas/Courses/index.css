@@ -1,3 +1,7 @@
+.flex-container-head {
+    height: 50px;    
+}
+
 .flex-container {
     display: flex;
     justify-content: space-between;
@@ -47,8 +51,23 @@ hr.full-width {
     padding-right: 5px;
 }
 
+.container-fullscreen {
+    width: 100vw;     
+    height: 100vh;    
+    margin: 0;         
+    padding: 0;         
+    overflow: hidden;
+}
+
 .container-left-align {
     margin-left: 0 !important;
+}
+
+hr.full-width {
+    width: 100%;
+    left: 50%;
+    right: 50%;
+    margin-bottom: 20px;
 }
 
 @media (max-width: 768px) {
